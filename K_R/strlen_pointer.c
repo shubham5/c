@@ -1,6 +1,7 @@
 #include<stdio.h>
 #define MAXLEN 1000
 
+/*strlen_demo : return the length of the string uses pointers to process the string. */
 int strlen_demo(char *s){
     int n;
     while(*s++ != '\0')
