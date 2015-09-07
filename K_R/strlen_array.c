@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define MAXLEN 1000
 
-/* strlen : return the length of the string.*/
+/* strlen_demo : return the length of the string uses arrays to process string.*/
 int strlen_demo(char s[], int len){
     int n;
     for(n = 0; n < len; n++)
