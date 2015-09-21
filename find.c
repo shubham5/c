@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
                  found++;
             }
         }
-    return found;
+    return 0;
 }
 
 int get_line(char *line, int max){
