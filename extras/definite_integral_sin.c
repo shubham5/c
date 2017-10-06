@@ -9,6 +9,7 @@ int main(){
     double sum = 0;
     double h;
 
+    
     do{
         h = (UPPER - LOWER) / N;
         sum += (h * sin(LOWER + (h * i)));
@@ -18,3 +19,4 @@ int main(){
     printf("The definite integral of sine function is : %f\n", sum);
     return 0;
 }
+
